@@ -12,25 +12,12 @@ export default function navbar()
     <Bo.Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Bo.Navbar.Collapse id="basic-navbar-nav">
       <Bo.Nav className="me-auto">
-        <Bo.Nav.Link href="/about">About us</Bo.Nav.Link>
-        <Bo.NavDropdown title="NFT" id="basic-nav-dropdown">
-          <Bo.NavDropdown.Item href="#action/3.1">Action</Bo.NavDropdown.Item>
-          <Bo.NavDropdown.Item href="#action/3.2">Another action</Bo.NavDropdown.Item>
-          <Bo.NavDropdown.Item href="#action/3.3">Something</Bo.NavDropdown.Item>
+        {/* <Bo.Nav.Link href="/about">About us</Bo.Nav.Link> */}
+        <Bo.Nav.Link href="/nft">NFT</Bo.Nav.Link>
+        <Bo.Nav.Link href="/crypto">Crypto</Bo.Nav.Link>
+        <Bo.Nav.Link href="/stock">Stocks</Bo.Nav.Link>
+        <Bo.Nav.Link href="/news">News</Bo.Nav.Link>
    
-        </Bo.NavDropdown>
-        <Bo.NavDropdown title="Stocks" id="basic-nav-dropdown">
-          <Bo.NavDropdown.Item href="#action/3.1">Action</Bo.NavDropdown.Item>
-          <Bo.NavDropdown.Item href="#action/3.2">Another action</Bo.NavDropdown.Item>
-          <Bo.NavDropdown.Item href="#action/3.3">Something</Bo.NavDropdown.Item>
-        
-        </Bo.NavDropdown>
-        <Bo.NavDropdown title="Crypto" id="basic-nav-dropdown">
-          <Bo.NavDropdown.Item href="#action/3.1">Action</Bo.NavDropdown.Item>
-          <Bo.NavDropdown.Item href="#action/3.2">Another action</Bo.NavDropdown.Item>
-          <Bo.NavDropdown.Item href="#action/3.3">Something</Bo.NavDropdown.Item>
-          
-        </Bo.NavDropdown>
         <Bo.Nav.Link href="/contact">Contact Us</Bo.Nav.Link>
       </Bo.Nav>
         <Bo.Nav>
