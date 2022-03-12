@@ -8,7 +8,7 @@ export default function navbar()
     return(
         <>
        <Bo.Navbar bg="dark" expand="lg" variant="dark">
-    <Bo.Navbar.Brand href="/">DUMMY Name</Bo.Navbar.Brand>
+    <Bo.Navbar.Brand href="/">Quintet</Bo.Navbar.Brand>
     <Bo.Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Bo.Navbar.Collapse id="basic-navbar-nav">
       <Bo.Nav className="me-auto">
@@ -25,13 +25,13 @@ export default function navbar()
           <Bo.NavDropdown.Item href="#action/3.3">Something</Bo.NavDropdown.Item>
         
         </Bo.NavDropdown>
-        <Bo.NavDropdown title="Shares" id="basic-nav-dropdown">
+        <Bo.NavDropdown title="Crypto" id="basic-nav-dropdown">
           <Bo.NavDropdown.Item href="#action/3.1">Action</Bo.NavDropdown.Item>
           <Bo.NavDropdown.Item href="#action/3.2">Another action</Bo.NavDropdown.Item>
           <Bo.NavDropdown.Item href="#action/3.3">Something</Bo.NavDropdown.Item>
           
         </Bo.NavDropdown>
-        <Bo.Nav.Link href="/contact">contact us</Bo.Nav.Link>
+        <Bo.Nav.Link href="/contact">Contact Us</Bo.Nav.Link>
       </Bo.Nav>
         <Bo.Nav>
         <Bo.Nav.Link href="/wallet"><FaWallet/></Bo.Nav.Link>

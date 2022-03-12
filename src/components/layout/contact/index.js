@@ -10,9 +10,8 @@ export default function Contact() {
            <h1>INFORMATION! <hr/></h1>
           
           
-           <h2>EVERYDAY OPEN</h2>
-           <h3>SUN - TUE : 4 PM - 10.30PM</h3>
-           <h3>FRI-SAT : 4 PM - 11.00 PM</h3>
+           <h2>24X7 OPEN</h2>
+           
 
            <h3>Phone No:  </h3>
            <h4>+91 XXXXXXXXXXXXXX

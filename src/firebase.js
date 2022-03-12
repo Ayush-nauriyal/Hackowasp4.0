@@ -1,3 +1,6 @@
+import {initializeApp} from "firebase/app";
+import {getFirestore} from '@firebase/firestore'
+
 const firebaseConfig = {
     apiKey: "AIzaSyB-1t4O0Mluwq7mhjDccDqG_0EO3id9meE",
     authDomain: "hackowasp-4.firebaseapp.com",
@@ -7,3 +10,7 @@ const firebaseConfig = {
     appId: "1:1050168746763:web:a5d7e4db032006ecf2f80e",
     measurementId: "G-WVCJKQ67TQ"
   };
+
+  const app=initializeApp(firebaseConfig);
+
+  const db=getFirestore(app);
